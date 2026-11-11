@@ -1,0 +1,47 @@
+# Ejemplo ilustrativo: no es ejecutable ni una entrada validada.
+case_study:
+  id: RF4-TFG
+  status: academic_work_in_progress
+  purpose: >-
+    Explorar un flujo trazable entre requisitos, parámetros de trabajo,
+    geometría paramétrica y documentación revisable.
+
+governance:
+  ai_role: interpretation_support
+  approval_authority: human_reviewer
+  advance_rule: no_stage_advances_without_recorded_review
+
+requirements:
+  - id: REQ-DIM-001
+    statement: Limitar la eslora total al objetivo de trabajo.
+    nature: design_target
+    parameter_ref: principal_dimensions.length_overall_m
+    acceptance: El modelo de la iteración refleja el valor revisado.
+  - id: REQ-OPS-001
+    statement: Considerar una velocidad máxima objetivo de 5 nudos.
+    nature: design_target
+    parameter_ref: performance.max_speed_target_kn
+    acceptance: El objetivo permanece identificado como no medido.
+
+parameters:
+  principal_dimensions:
+    length_overall_m: { value: 4.80, status: design_target }
+    beam_m: { value: 2.00, status: design_target }
+    draft_m: { value: 0.35, status: design_target }
+  mass_properties:
+    displacement_estimate_kg: { value: 180, status: working_estimate }
+  performance:
+    max_speed_target_kn: { value: 5, status: design_target }
+    cruise_speed_target_kn: { value: 3, status: design_target }
+    endurance_target_h:
+      value: 1.9
+      condition: at_cruise_target
+      status: design_target
+  perception:
+    categories: [gnss_positioning, camera, inertial_measurement, obstacle_detection, ais_reception]
+    commercial_models_selected: false
+
+publication_boundaries:
+  public: [architecture_brief, target_parameters, traceability_example, review_controls]
+  not_public: [source_code, cad_models, technical_drawings]
+  not_claimed: [constructed_vehicle, measured_performance, professional_validation, certification]

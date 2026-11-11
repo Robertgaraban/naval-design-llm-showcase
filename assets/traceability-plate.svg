@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitectura y trazabilidad de RF-4</title><desc id="desc">Capas de necesidad, requisito, parámetro, geometría, documento y aceptación humana.</desc>
+  <rect width="1200" height="520" rx="24" fill="#edf4f7"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif"><text x="54" y="58" fill="#0a293b" font-size="25" font-weight="750">Una cadena de decisiones, no una caja negra</text><text x="54" y="88" fill="#557080" font-size="15">Cada transición conserva identidad, estado y responsable de revisión.</text>
+    <g transform="translate(54 126)">
+      <g><rect width="170" height="122" rx="14" fill="#0c3348"/><text x="22" y="36" fill="#79e4d6" font-size="13" font-weight="700">01 · INTENCIÓN</text><text x="22" y="71" fill="white" font-size="19" font-weight="700">Necesidad</text><text x="22" y="97" fill="#b9ccd7" font-size="13">para qué y para quién</text></g>
+      <g transform="translate(184)"><rect width="170" height="122" rx="14" fill="#12435b"/><text x="22" y="36" fill="#79e4d6" font-size="13" font-weight="700">02 · CONTRATO</text><text x="22" y="71" fill="white" font-size="19" font-weight="700">Requisito</text><text x="22" y="97" fill="#b9ccd7" font-size="13">ID y aceptación</text></g>
+      <g transform="translate(368)"><rect width="170" height="122" rx="14" fill="#18536e"/><text x="22" y="36" fill="#8fc4ff" font-size="13" font-weight="700">03 · DATO</text><text x="22" y="71" fill="white" font-size="19" font-weight="700">Parámetro</text><text x="22" y="97" fill="#c3d5df" font-size="13">valor, unidad, estado</text></g>
+      <g transform="translate(552)"><rect width="170" height="122" rx="14" fill="#1e6380"/><text x="22" y="36" fill="#ffcf87" font-size="13" font-weight="700">04 · EFECTO</text><text x="22" y="71" fill="white" font-size="19" font-weight="700">Geometría</text><text x="22" y="97" fill="#c9dce5" font-size="13">elemento afectado</text></g>
+      <g transform="translate(736)"><rect width="170" height="122" rx="14" fill="#24718e"/><text x="22" y="36" fill="#ffcf87" font-size="13" font-weight="700">05 · SALIDA</text><text x="22" y="71" fill="white" font-size="19" font-weight="700">Documento</text><text x="22" y="97" fill="#d0e1e8" font-size="13">vista y revisión</text></g>
+      <g transform="translate(920)"><rect width="172" height="122" rx="14" fill="#0f806f"/><text x="20" y="36" fill="#d8fff8" font-size="13" font-weight="700">06 · PUERTA</text><text x="20" y="71" fill="white" font-size="18" font-weight="700">Aceptar</text><text x="20" y="97" fill="#d0f2ec" font-size="12">o corregir</text></g>
+    </g>
+    <g transform="translate(54 296)"><rect width="1092" height="168" rx="16" fill="white" stroke="#cadbe3"/><text x="24" y="34" fill="#0a293b" font-size="15" font-weight="750">METADATOS QUE VIAJAN CON CADA DECISIÓN</text>
+      <g font-size="14" fill="#17394c"><text x="28" y="75">• identificador y versión</text><text x="28" y="105">• fuente y supuesto</text><text x="28" y="135">• observaciones</text><text x="360" y="75">• valor, unidad y estado</text><text x="360" y="105">• dependencia afectada</text><text x="360" y="135">• autor del cambio</text><text x="720" y="75">• criterio de aceptación</text><text x="720" y="105">• responsable de revisión</text><text x="720" y="135">• decisión y siguiente etapa</text></g>
+    </g>
+  </g>
+</svg>

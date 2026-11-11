@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">RF-4, del requisito al diseño revisable</title>
+  <desc id="desc">Composición conceptual de requisitos, parámetros, geometría y revisión humana. No representa una embarcación construida.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071827"/><stop offset=".55" stop-color="#0b2740"/><stop offset="1" stop-color="#083b4d"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#44d7c6"/><stop offset="1" stop-color="#65a9ff"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8fc7d8" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1280" height="520" rx="28" fill="url(#bg)"/><rect width="1280" height="520" rx="28" fill="url(#grid)"/>
+  <circle cx="1115" cy="105" r="170" fill="#36d9c0" opacity=".07"/><circle cx="1040" cy="405" r="210" fill="#5b9cff" opacity=".06"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="76" y="104" fill="#7fe5d8" font-size="18" font-weight="700" letter-spacing="3">CASO DE ESTUDIO · TFG EN CURSO</text>
+    <text x="76" y="174" fill="#f3f8fb" font-size="54" font-weight="750">RF-4</text>
+    <text x="76" y="224" fill="#f3f8fb" font-size="34" font-weight="600">Del requisito al diseño revisable</text>
+    <text x="76" y="266" fill="#b9ccda" font-size="20">IA como apoyo · trazabilidad · decisión humana</text>
+    <g transform="translate(76 334)"><rect width="210" height="100" rx="16" fill="#102f46" stroke="#3b718c"/><circle cx="30" cy="29" r="9" fill="#44d7c6"/><text x="52" y="35" fill="#f4f8fb" font-size="16" font-weight="700">REQUISITOS</text><text x="24" y="70" fill="#a9c0cf" font-size="14">Necesidad y alcance</text></g>
+    <path d="M298 384h42" stroke="url(#accent)" stroke-width="3"/><path d="m336 376 12 8-12 8" fill="none" stroke="#65a9ff" stroke-width="3"/>
+    <g transform="translate(360 334)"><rect width="210" height="100" rx="16" fill="#102f46" stroke="#3b718c"/><circle cx="30" cy="29" r="9" fill="#65a9ff"/><text x="52" y="35" fill="#f4f8fb" font-size="16" font-weight="700">PARÁMETROS</text><text x="24" y="70" fill="#a9c0cf" font-size="14">Datos estructurados</text></g>
+    <path d="M582 384h42" stroke="url(#accent)" stroke-width="3"/><path d="m620 376 12 8-12 8" fill="none" stroke="#65a9ff" stroke-width="3"/>
+    <g transform="translate(644 334)"><rect width="210" height="100" rx="16" fill="#102f46" stroke="#3b718c"/><circle cx="30" cy="29" r="9" fill="#f2b35f"/><text x="52" y="35" fill="#f4f8fb" font-size="16" font-weight="700">GEOMETRÍA</text><text x="24" y="70" fill="#a9c0cf" font-size="14">Modelo y vistas</text></g>
+    <path d="M866 384h42" stroke="url(#accent)" stroke-width="3"/><path d="m904 376 12 8-12 8" fill="none" stroke="#65a9ff" stroke-width="3"/>
+    <g transform="translate(928 334)"><rect width="276" height="100" rx="16" fill="#12384b" stroke="#44d7c6" stroke-width="2"/><path d="M30 22v28l16 10 16-10V22l-16-8z" fill="none" stroke="#7fe5d8" stroke-width="2"/><path d="m37 37 7 7 13-14" fill="none" stroke="#7fe5d8" stroke-width="3"/><text x="78" y="35" fill="#f4f8fb" font-size="16" font-weight="700">REVISIÓN HUMANA</text><text x="78" y="70" fill="#a9c0cf" font-size="14">Aceptar · observar · corregir</text></g>
+    <path d="M1008 286c42-47 96-75 164-77-42 17-80 38-113 67 43-7 79-5 110 3-65 8-118 10-161 7Z" fill="none" stroke="#88b9cd" stroke-width="2" stroke-opacity=".55" stroke-dasharray="7 8"/>
+    <text x="1012" y="312" fill="#88a9ba" font-size="12" letter-spacing="1.2">ESQUEMA CONCEPTUAL · NO ES UN RENDER DE CONSTRUCCIÓN</text>
+  </g>
+</svg>
